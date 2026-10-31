@@ -1,0 +1,6 @@
+{
+  "name": "ShikshyaStudio Nepal",
+  "description": "Smart lecture video processor and exam prep lesson pack generator for Nepali teachers and coaching institutes. Features audio silence cleanup, sound normalization, bilingual Nepali/English subtitles, in-browser caption editor, secure signed download links, and eSewa/Khalti verified billing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

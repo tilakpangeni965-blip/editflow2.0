@@ -1,0 +1,160 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-bilingual: 'Noto Sans', 'Noto Sans Devanagari', system-ui, -apple-system, sans-serif;
+
+    /* Himalayan Modern EdTech Palette */
+    --surface: #f8f9ff;
+    --surface-dim: #cddbf2;
+    --surface-bright: #f8f9ff;
+    --surface-container-lowest: #ffffff;
+    --surface-container-low: #eff4ff;
+    --surface-container: #e6eeff;
+    --surface-container-high: #dde9ff;
+    --surface-container-highest: #d6e3fb;
+    --on-surface: #0f1c2d;
+    --on-surface-variant: #45464e;
+    --inverse-surface: #243143;
+    --inverse-on-surface: #eaf1ff;
+    --outline: #75777f;
+    --outline-variant: #c5c6cf;
+    --surface-tint: #4f5e81;
+
+    --primary: #1b2a4a;
+    --primary-dark: #041534;
+    --on-primary: #ffffff;
+    --primary-container: #1b2a4a;
+    --on-primary-container: #8392b7;
+
+    --secondary: #b6152e;
+    --secondary-container: #d93343;
+    --on-secondary: #ffffff;
+
+    --tertiary: #e07a1e;
+    --tertiary-dark: #281000;
+    --tertiary-container: #472000;
+
+    --esewa: #60bb46;
+    --khalti: #5c2d91;
+    --pipeline: #2563eb;
+  }
+
+  body {
+    background-color: var(--surface);
+    color: var(--on-surface);
+    font-family: var(--font-bilingual);
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.015em;
+  }
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-bilingual {
+  font-family: var(--font-bilingual);
+}
+
+/* Typography styles based on Himalayan Modern EdTech specs */
+.display-lg {
+  font-family: var(--font-heading);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.headline-lg {
+  font-family: var(--font-heading);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.headline-md {
+  font-family: var(--font-heading);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.headline-sm {
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.title-md {
+  font-family: var(--font-bilingual);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.body-lg {
+  font-family: var(--font-bilingual);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.body-md {
+  font-family: var(--font-bilingual);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.body-sm {
+  font-family: var(--font-bilingual);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.label-lg {
+  font-family: var(--font-heading);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.label-md {
+  font-family: var(--font-heading);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.label-sm {
+  font-family: var(--font-heading);
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+/* Clean institutional scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eff4ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c5c6cf;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #75777f;
+}
